@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Video App</title>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+        <link href="./style.css" rel="stylesheet" />
+    </head>
+    <body>
+        <script src="./peerjs.js"></script>
+        <div id = "section-client">
+            <video class="client" autoplay id="remote"></video>
+        </div>
+        <div id = "section-host" >
+            <video class="host" autoplay muted id="local"></video>
+        </div>
+        <script src="call.js"></script>
+    </body>
+</html>
