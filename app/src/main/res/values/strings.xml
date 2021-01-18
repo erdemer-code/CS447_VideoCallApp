@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CS447_VideoCallApp</string>
+    <string name="who_do_you_want_to_call">Who do you want to call?</string>
+    <string name="call">Call</string>
+    <string name="someone_is_calling">Someone is calling…</string>
+    <string name="enter_a_username">Enter a username</string>
+    <string name="log_n">Logın</string>
+</resources>
