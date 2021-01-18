@@ -11,11 +11,12 @@ var stream_func = function(stream){
 let peer
 function init(userId) {
     peer = new Peer(userId, {
-        host: "192.168.1.15",
+        host: "192.168.1.25",
         port: 9000,
         path: "/videocallapp"
     })
     peer.on("open",function(conn){
+        Android.onPeerConnected()
         //we will make a call to a kotlin in android.
     })
     peer.on("call", function(call){
